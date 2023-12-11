@@ -2,4 +2,4 @@
 a tool for PScratch
 ||
 | :--- |
-| ![image](PScratch sprite editor.png)
+| ![image](/PScratch sprite editor.png)
