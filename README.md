@@ -1,3 +1,3 @@
 # PScratch-sprite-editor
 a tool for PScratch
-![image](/web/assets/PScratch sprite editor.png)
+![image](/web/assets/PScratchspriteeditor.png)
