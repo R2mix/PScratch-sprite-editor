@@ -114,8 +114,11 @@ void saveStackTrace() {
       stackTrace ++;
       undoStack.add(renderGraphic.get());
     } else {
-      stackTrace ++;
-      undoStack.set(stackTrace, renderGraphic.get());
+      // remove the extra stack if a change come during
+      int removeStack = undoStack.size()-1 - stackTrace;
+      for (int i =0; i < removeStack; i++) {
+        undoStack.remove(undoStack.size() -1);
+      }
     }
   }
 }

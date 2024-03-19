@@ -188,6 +188,7 @@ void fileSelected(File selection) {
     // -------------  save dans la stack pour le ctrl z  ----------------
     stackTrace = -1;
     undoStack.clear();
+    delay(50);
     saveStackTrace();
     imgX =0;
     imgY =0;
